@@ -1,0 +1,15 @@
+ADVANCED C PROGRAM:
+#define ADD(X) ( X=X/X)
+#include<stdio.h>
+void main()
+{
+int a = 10;
+ADD(a);
+}
+The Expanded program is
+#include<stdio.h>
+void main()
+{
+int a = 10;
+a=a/a; // Macro Expansion
+}
